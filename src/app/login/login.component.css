@@ -1,0 +1,18 @@
+.box {
+    width: 596px;
+    height: 472px;
+    margin: 20px auto;
+    background: #ffff;
+    padding:10px;
+    /*border: 1px solid #000000;*/
+    box-shadow: 2px 2px 8px #000;
+}
+
+.login-centro{
+    text-align: center;
+}
+
+.centralizar-botao{
+    margin: 0 auto;
+    display: table;
+}

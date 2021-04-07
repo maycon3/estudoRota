@@ -1,0 +1,6 @@
+<p>Lista de Cursos</p>
+<p>Pagina: {{ pagina }}</p>
+<button type="button" (click)="incrementarPagina()">Incrementar</button>
+<div class="collection">
+    <a  [routerLink]="['/cursos', curso.id]" class="collection-item" *ngFor="let curso of cursos">{{ curso.nome }}</a>
+  </div>

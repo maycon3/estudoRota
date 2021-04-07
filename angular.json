@@ -26,7 +26,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/materialize-css/dist/js/materialize.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "estudoRota"
+    }
+  },
+  "defaultProject": "estudoRota",
+  "cli": {
+    "analytics": "4fb67bb8-26e5-48a3-bf8b-385d37c9ce58"
+  }
 }
